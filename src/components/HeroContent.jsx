@@ -2,6 +2,7 @@ import React from "react";
 import { TbArrowBadgeRightFilled } from "react-icons/tb";
 import { FaRegCirclePause } from "react-icons/fa6";
 import { FaRegCirclePlay } from "react-icons/fa6";
+import { FaDropbox } from "react-icons/fa";
 const HeroContent = ({
   setPlayStatus,
   heroCount,
@@ -9,15 +10,20 @@ const HeroContent = ({
   setHeroCount,
 }) => {
   const heroData = [
-    { text1: "Logistik", text2: "watch" },
-    { text1: "Logistik", text2: "watch" },
-    { text1: "Logistik", text2: "watch" },
+    { text1: "World wide", text2: "Best shipping" },
+    { text1: "Transport", text2: "For Everything" },
+    { text1: "Rail Freight", text2: "and Logistics" },
   ];
   return (
     <div className="hero">
-      <div className="text-white text-6xl  hero-text">
-        <p>{heroData[heroCount].text1}</p>
-        <p>{heroData[heroCount].text2}</p>
+      <div className="text-white   hero-text">
+        <div className="flex items-center gap-2">
+          {" "}
+          <FaDropbox size={20} className="text-orange-400" />{" "}
+          <p> We Provide the best services</p>
+        </div>
+        <p className="text-2xl">{heroData[heroCount].text1}</p>
+        <p className="text-6xl">{heroData[heroCount].text2}</p>
       </div>
       <div className="flex  items-center gap-[50px] hero-explore">
         <p className="text-orange-500 text-sm font-light">

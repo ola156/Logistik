@@ -6,7 +6,7 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
+
   background-color: #242424;
 
   font-synthesis: none;
@@ -34,26 +34,24 @@ h1 {
 }
 
 button {
-  border-radius: 8px;
-  border: 1px solid transparent;
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  border: 1px solid rgb(248, 87, 28);
+  color: rgb(248, 87, 28);
+  background: #fff;
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  background-color: rgb(248, 87, 28);
+  color: white;
 }
 
 .background {
-  height: 100%;
+  height: 100dvh;
   width: 100%;
   float: left;
   top: 0;
@@ -61,7 +59,7 @@ button:focus-visible {
   right: 0;
   bottom: 0;
   padding: none;
-  position: fixed;
+  position: absolute;
   object-fit: cover;
   z-index: -1;
 }
@@ -78,7 +76,7 @@ button:focus-visible {
   animation: fadeIn 500ms ease-in-out;
 }
 .hero {
-  margin: 0px 120px;
+  margin: 0px 100px;
   margin-top: 120px;
 }
 
@@ -107,8 +105,13 @@ button:focus-visible {
 .hero-dot.orange {
   background-color: orangered;
 }
+@media screen and (max-width: 420px) {
+  .about-div {
+    margin-top: 230px;
+  }
+}
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 570px) {
   .hero {
     margin: 0px 80px;
     margin-top: 70px;
@@ -127,6 +130,25 @@ button:focus-visible {
   .hero-dot {
     flex-direction: column;
   }
+  .about-div-1 {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .about-div {
+    flex-direction: column;
+  }
+
+  .about-img-div {
+    width: 100%;
+  }
+  .services-text {
+    font-size: 25px;
+  }
+  .services-div {
+    flex-direction: column;
+  }
 }
 @media (prefers-color-scheme: light) {
   :root {
@@ -135,8 +157,5 @@ button:focus-visible {
   }
   a:hover {
     color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
   }
 }

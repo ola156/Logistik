@@ -13,11 +13,23 @@ const Hero = ({ playStatus, heroCount }) => {
       </video>
     );
   } else if (heroCount === 0) {
-    return <img src={hero3} alt="" className="background fade-in" />;
+    return (
+      <div className="max-h-dvh">
+        <img src={hero3} alt="" className="background fade-in" />
+      </div>
+    );
   } else if (heroCount === 1) {
-    return <img src={hero2} alt="" className="background fade-in" />;
+    return (
+      <div className="max-h-dvh">
+        <img src={hero2} alt="" className="background fade-in" />
+      </div>
+    );
   } else if (heroCount === 2) {
-    return <img src={hero1} alt="" className="background fade-in" />;
+    return (
+      <div className="max-h-dvh">
+        <img src={hero1} alt="" className="background fade-in" />
+      </div>
+    );
   }
 };
 

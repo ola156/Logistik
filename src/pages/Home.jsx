@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import Nav from "../components/Nav";
 import Hero from "../components/Hero";
 import HeroContent from "../components/HeroContent";
+import AboutUs from "../components/AboutUs";
+import Services from "../components/Services";
 
 const Home = () => {
   const [playStatus, setPlayStatus] = useState(false);
@@ -12,7 +14,7 @@ const Home = () => {
       setHeroCount((count) => {
         return count === 2 ? 0 : count + 1;
       });
-    }, 3000);
+    }, 10000);
   }, []);
   return (
     <div>
@@ -24,6 +26,8 @@ const Home = () => {
         heroCount={heroCount}
         setHeroCount={setHeroCount}
       />
+      <AboutUs />
+      <Services />
     </div>
   );
 };

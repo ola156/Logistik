@@ -6,7 +6,7 @@ import service3 from "../assets/service_1_4.jpg.webp";
 import Buttons from "./Buttons";
 const Services = () => {
   return (
-    <div className="w-full h-dvh mt-10 pt-12 bg-gray-100 p-6">
+    <div className="w-full  mt-10 pt-12 bg-gray-100 p-6">
       <div className="">
         <div className="flex items-center justify-center flex-col">
           <div className="flex gap-4 items-center">

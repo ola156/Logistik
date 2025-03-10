@@ -134,6 +134,11 @@ button:hover {
     flex-direction: column;
   }
 }
+@media screen and (max-width: 700px) {
+  .services-div {
+    flex-direction: column;
+  }
+}
 
 @media screen and (max-width: 900px) {
   .about-div {
@@ -146,7 +151,10 @@ button:hover {
   .services-text {
     font-size: 25px;
   }
-  .services-div {
+}
+
+@media screen and (max-width: 1200px) {
+  .about-div-1 {
     flex-direction: column;
   }
 }

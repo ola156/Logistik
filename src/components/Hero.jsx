@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import hero1 from "../assets/pexels-muhammedtarikkahraman-16706765.jpg";
-import hero2 from "../assets/pexels-sergeich-03-3559004-9280464 (1).jpg";
+import hero2 from "../assets/service_1_1.jpg.webp";
 import hero3 from "../assets/project_1_3.jpg.webp";
 import video1 from "../assets/video1.mp4";
 

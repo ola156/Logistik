@@ -15,21 +15,21 @@ const Nav = () => {
   return (
     <div className=" ">
       <div className="py-3 bg-transparent md:flex items-center justify-evenly hidden shadow">
-        <div className="text-black flex items-center ml-4 ">
+        <div className="text-white flex items-center ml-4 ">
           <FiPhone className="mx-2 text-orange-500" size={20} />
           <h3 className="font-extrabold mr-1">Phone :</h3>
           <p className="font-semibold hover:text-orange-500">
             +234 808-744-2174
           </p>
         </div>
-        <div className="text-black flex items-center ml-4">
+        <div className="text-white flex items-center ml-4">
           <MdOutlineEmail className="mx-2 text-orange-500" size={20} />
           <h3 className="font-extrabold mr-1">Email :</h3>
           <p className="font-semibold  hover:text-orange-500">
             agboolausman01@gmail.com
           </p>
         </div>
-        <div className="text-black flex items-center ml-4">
+        <div className="text-white flex items-center ml-4">
           <FaXTwitter className="mx-2  hover:text-orange-500" size={20} />
           <RiInstagramFill className="mx-2  hover:text-orange-500" size={20} />
           <FaFacebookF className="mx-2  hover:text-orange-500 " size={20} />

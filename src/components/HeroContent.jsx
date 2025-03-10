@@ -26,7 +26,7 @@ const HeroContent = ({
         <p className="text-6xl">{heroData[heroCount].text2}</p>
       </div>
       <div className="flex  items-center gap-[50px] hero-explore">
-        <p className="text-orange-500 text-sm font-light">
+        <p className="text-orange-500 text-sm font-bold">
           Explore the Features
         </p>
         <TbArrowBadgeRightFilled className="text-orange-500" size={19} />

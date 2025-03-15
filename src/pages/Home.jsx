@@ -4,6 +4,7 @@ import Hero from "../components/Hero";
 import HeroContent from "../components/HeroContent";
 import AboutUs from "../components/AboutUs";
 import Services from "../components/Services";
+import Form from "../components/Form";
 
 const Home = () => {
   const [playStatus, setPlayStatus] = useState(false);
@@ -28,6 +29,7 @@ const Home = () => {
       />
       <AboutUs />
       <Services />
+      <Form />
     </div>
   );
 };

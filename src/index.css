@@ -32,8 +32,7 @@ h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
-
-button {
+.cta {
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
@@ -45,7 +44,7 @@ button {
   transition: border-color 0.25s;
 }
 
-button:hover {
+.cta:hover {
   background-color: rgb(248, 87, 28);
   color: white;
 }
@@ -105,6 +104,19 @@ button:hover {
 .hero-dot.orange {
   background-color: orangered;
 }
+
+.input-box {
+  padding: 15px 10px;
+  border: 1px solid white;
+  outline: none;
+  border-radius: 2px;
+  width: 100%;
+  background-color: #a7abf836;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+}
+
 @media screen and (max-width: 420px) {
   .about-div {
     margin-top: 230px;
@@ -133,10 +145,17 @@ button:hover {
   .about-div-1 {
     flex-direction: column;
   }
+  .tab-content {
+    flex-direction: column;
+  }
 }
 @media screen and (max-width: 700px) {
   .services-div {
     flex-direction: column;
+  }
+
+  .tabs-div {
+    width: 95%;
   }
 }
 
@@ -150,6 +169,10 @@ button:hover {
   }
   .services-text {
     font-size: 25px;
+  }
+
+  .tab-div {
+    min-width: 90%;
   }
 }
 

@@ -14,7 +14,7 @@ const Nav = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
   return (
     <div className=" ">
-      <div className="py-3 bg-transparent md:flex items-center justify-evenly hidden shadow">
+      <div className="py-3 bg-transparent md:flex items-center justify-evenly hidden">
         <div className="text-white flex items-center ml-4 ">
           <FiPhone className="mx-2 text-orange-500" size={20} />
           <h3 className="font-extrabold mr-1">Phone :</h3>

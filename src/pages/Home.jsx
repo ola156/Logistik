@@ -5,6 +5,9 @@ import HeroContent from "../components/HeroContent";
 import AboutUs from "../components/AboutUs";
 import Services from "../components/Services";
 import Form from "../components/Form";
+import Blog from "../components/Blog";
+import Testimonials from "../components/Testimonials";
+import Footer from "../components/Footer";
 
 const Home = () => {
   const [playStatus, setPlayStatus] = useState(false);
@@ -30,6 +33,9 @@ const Home = () => {
       <AboutUs />
       <Services />
       <Form />
+      <Blog />
+      <Testimonials />
+      <Footer />
     </div>
   );
 };

@@ -117,6 +117,16 @@ h1 {
   font-size: 15px;
 }
 
+.port {
+  opacity: 0;
+}
+.portfolio:hover img {
+  background-color: black;
+  opacity: 0.9;
+}
+.portfolio:hover .port {
+  opacity: 1;
+}
 @media screen and (max-width: 420px) {
   .about-div {
     margin-top: 230px;
@@ -153,6 +163,9 @@ h1 {
   .services-div {
     flex-direction: column;
   }
+  .hero-dots {
+    flex-direction: column;
+  }
 
   .tabs-div {
     width: 95%;
@@ -173,6 +186,9 @@ h1 {
 
   .tab-div {
     min-width: 90%;
+  }
+  .hero-dotss {
+    flex-direction: column;
   }
 }
 

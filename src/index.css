@@ -131,6 +131,9 @@ h1 {
   .about-div {
     margin-top: 230px;
   }
+  .foot {
+    flex-direction: column;
+  }
 }
 
 @media screen and (max-width: 570px) {

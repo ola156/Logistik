@@ -1,14 +1,10 @@
 import React from "react";
-import NewsLetter from "./NewsLetter";
-import logo from "../assets/logo.svg";
-import { FiPhone } from "react-icons/fi";
-import { MdOutlineEmail } from "react-icons/md";
+
 import { FaXTwitter } from "react-icons/fa6";
 import { RiInstagramFill } from "react-icons/ri";
-import { MdSegment } from "react-icons/md";
+
 import { FaFacebookF } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
-import { IoMdCloseCircleOutline } from "react-icons/io";
 
 const Footer = () => {
   return (
